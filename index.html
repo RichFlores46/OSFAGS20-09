@@ -12,21 +12,81 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/ejemplo.css" />
     <link rel="stylesheet" href="assets/css/medias.css" />
+    <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="assets/img/home-favicon.ico" />
     
     <!--User Way-->
-    <!--<script src="https://cdn.userway.org/widget.js" data-account="FfyPNo0Rq8"></script>-->
+    <script src="https://cdn.userway.org/widget.js" data-account="f1iw7hGoaj"></script>
+    
     <!--Iconos FA-->
-    <script src="https://kit.fontawesome.com/1ab87fe933.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eaa08b9c67.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    
-    <div class="container">
-      <a href="index.html">
-        <img src="assets/img/logo2.png" alt="logo del osfags" title="Órgano Superior de Fiscalización del Estado de Aguascalientes" id="img-inicio" /> 
-      </a>
-      <hr />
+  
+    <div class="row">
+      <div class="col-md-12">
+        <div class="navegacion-menu">
+          <ul class="nav-back-logo">
+            <li class="nav-item-back">
+                
+            </li><br><br><br>
+            <li class="nav-item-logo" style="text-align: center">
+                <a href="index.html">
+                    <img src="assets/img/logo2.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes" title="Inicio" width="190px" style="object-fit: contain;">
+                </a>
+            </li>
+        </ul>
+  
+        <ul class="nav nav-tabs nav-tabs-menu" id="menu" role="tablist" style="text-align: center;">
+  
+          <li class="nav-item nav-item-menu">
+            <a class="nav-link nav-link-menu active" href="index.html" role="tab">Inicio</a>
+          </li>
+  
+          <li class="nav-item dropdown nav-item-menu">
+            <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Transparencia
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item dropdown-item-submenu" href="transparencia-y-proteccion/transparencia.html">Obligaciones de Transparencia</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" href="transparencia-y-proteccion/avisos.html">Avisos de Privacidad</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" href="transparencia-y-proteccion/sevac.html">SEVAC</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" href="transparencia-y-proteccion/disciplina-financiera.html">Disciplina Financiera</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" href="transparencia-y-proteccion/avance.html">Avance de Gestión Financiera</a></li>
+            </ul>
+          </li>
+  
+          <li class="nav-item dropdown nav-item-menu">
+            <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Programas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="https://osfags.gob.mx/Public/bk1FRRJlrE3MdeR.pdf">Programa de Actividades 2024</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/XulrIRUvXTOPone.pdf">Plan de Auditorías Cuenta Pública 2022</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/d5KeTCBheUUv4kr.pdf">Plan Anual de Adquisiciones, Arrendamientos y Servicios</a></li>
+              <li><a class="dropdown-item dropdown-item-submenu" href="programas-y-servicios/evaluacion.html">Sistema de Evaluación del Desempeño del Programa Presupuestario</a></li>
+          
+            </ul>
+          </li>
+  
+          <li class="nav-item nav-item-menu">
+            <a class="nav-link nav-link-menu" href="denuncia/index.html" role="tab" >Denuncia</a>
+          </li>
+  
+          <li class="nav-item nav-item-menu">
+            <a class="nav-link nav-link-menu" href="contacto/index.html" role="tab" >Contacto</a>
+          </li>
+  
+        </ul>
+  
+        </div>
+      </div>
+    </div>
+
+
+       <div class="container">
+        <hr>
       <div class="row">
         <!-- //Carrusel principal del inicio donde cada imagen tiene un link propio para accesar rapidamente, para aagregar una imagen copiar:
         <li class="splide__slide">
@@ -37,6 +97,7 @@
           </div> 
         </li>
         -->
+        <div id="carousel-container">
         <div class="wrapper">
           <main class="page">
             <section id="image-carousel" class="splide gallery" aria-label="gallery">
@@ -94,13 +155,15 @@
           </main>
         </div>
       </div>
+
+      </div>
       <br />
       <div class="row">
         <!--Se encuentran 3 botones que los redirecciona a su página correspondiente y un banner de facebook 
                 que se va actualizando las publicaciones-->
         <div class="col-md-4" id="col-one">
           <br />
-          <a href="quienes-somos/" id="ejemplosomos" class="btn" title="¿Quiénes Somos?"></a>
+          <a href="quienes-somos/" id="ejemplosomos" class="btn"></a>
           <br /><br />
 
           <a href="informe-auditorias/" id="ejemploinforme" class="btn" title="Informe Anual de Auditorías"></a>
@@ -195,11 +258,19 @@
                 <div class="splide__track" style="border: 3px #fff">
                   <ul class="splide__list">
                     <li class="splide__slide">
-                      <img src="assets/img/carrusel2/8-09.png" alt="" id="imgcar1" />
+                      <img src="assets/img/carrusel2/9-10.png" alt="" id="imgcar1" />
                     </li>
 
                     <li class="splide__slide">
-                      <img src="assets/img/carrusel2/8-12.png" alt="" id="imgcar1" />
+                      <img src="assets/img/carrusel2/9-15.png" alt="" id="imgcar1" />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img src="assets/img/carrusel2/9-16.png" alt="" id="imgcar1" />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img src="assets/img/carrusel2/9-21.png" alt="" id="imgcar1" />
                     </li>
 
                   </ul> 
@@ -216,22 +287,6 @@
       </a>
     </p>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="modalindex" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <iframe src="assets/pdf/AVISO SIMPLIFICADO Auditoría.pdf" frameborder="0" width="100%" height="500px" frameborder="0"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
     <br /><br /><br />
     <footer class="footer">
         <div class="row">
@@ -239,11 +294,11 @@
               <main class="main-txt-footer">
                 <p style="color: white; text-align: center">
                   
-                  <b>Dirección: </b> Sierra Pintada 102, Bosques del Prado Sur, 20130
+                  <b>Dirección:</b> Sierra Pintada 102, Bosques del Prado Sur, 20130
                   Aguascalientes.<br />
 
                   <b>¿Alguna pregunta?</b> 
-                  <a id="contacto" href="mailto:210716@utags.edu.mx">contacto@osfags.gob.mx</a> <br />
+                  <a id="contacto" href="mailto:contacto@osfags.gob.mx">contacto@osfags.gob.mx</a> <br />
 
                   <b>Llámenos: </b> 
                   (449) 918 3614 <br />
@@ -278,8 +333,8 @@
 
           <div class="col-lg-4 col-md-12">
             <main class="main-img-footer">
-              <img src="assets/img/logoblanco.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes"
-              title="Órgano Superior de Fiscalización del Estado de Aguascalientes" id="img-logo4" style="background-color: blue;"/>
+              <img src="assets/img/logoOsFAGSBlanco_convert.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes"
+              title="Órgano Superior de Fiscalización del Estado de Aguascalientes" id="img-logo4"/>
             </main>
             
           </div>
@@ -300,11 +355,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="assets/js/autoslider.js"></script>
     <script src="assets/js/autoslider2.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/modalindex.js"></script>
-      
-    </script>
 
 
     <!--Popover
