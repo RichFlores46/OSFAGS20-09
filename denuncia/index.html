@@ -9,38 +9,81 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/medias.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
     <link rel="icon" href="../assets/img/home-favicon.ico">
 
     
     <!--User Way-->
-    <!--<script src="https://cdn.userway.org/widget.js" data-account="FfyPNo0Rq8"></script>-->
+    <script src="https://cdn.userway.org/widget.js" data-account="f1iw7hGoaj"></script>
     <!--Iconos FA-->
-    <script src="https://kit.fontawesome.com/1ab87fe933.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/eaa08b9c67.js" crossorigin="anonymous"></script>
+
     <!--Recaptcha-->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcicUInAAAAAA9fdJ_ucFPeE2_2LXnItw6Uk-_o"></script>
   
   </head>
 <body>
 
   <div class="row">
     <div class="col-md-12">
+      <div class="navegacion-menu">
         <ul class="nav-back-logo">
-            <li class="nav-item-back">
-                <a title="Regresar" id="letrav" class="btn" href="javascript: window.history.back();" role="button">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </a>
-            </li>
-            <li class="nav-item-logo" style="text-align: center">
-                <a href="../">
-                    <img src="../assets/img/logo_osfags.png" id="img-logo3" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes" title="Inicio">
-                </a>
-            </li>
-        </ul>
+          <li class="nav-item-back">
+              
+          </li><br><br><br>
+          <li class="nav-item-logo" style="text-align: center">
+              <a href="../index.html">
+                  <img src="../assets/img/logo2.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes" title="Inicio" width="190px">
+              </a>
+          </li>
+      </ul>
+
+      <ul class="nav nav-tabs nav-tabs-menu" id="menu" role="tablist" style="text-align: center;">
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../index.html" role="tab" >Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown nav-item-menu">
+          <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Transparencia
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-submenu" href="../transparencia-y-proteccion/transparencia.html">Obligaciones de Transparencia</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="../transparencia-y-proteccion/avisos.html">Avisos de Privacidad</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="../transparencia-y-proteccion/sevac.html">SEVAC</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="../transparencia-y-proteccion/disciplina-financiera.html">Disciplina Financiera</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="../transparencia-y-proteccion/avance.html">Avance de Gestión Financiera</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown nav-item-menu">
+          <a class="nav-link dropdown-toggle nav-link-dropdown-toggle-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Programas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="https://osfags.gob.mx/Public/bk1FRRJlrE3MdeR.pdf">Programa de Actividades 2024</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/XulrIRUvXTOPone.pdf">Plan de Auditorías Cuenta Pública 2022</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" target="_blank" href="http://osfags.gob.mx/Public/d5KeTCBheUUv4kr.pdf">Plan Anual de Adquisiciones, Arrendamientos y Servicios</a></li>
+            <li><a class="dropdown-item dropdown-item-submenu" href="../programas-y-servicios/evaluacion.html">Sistema de Evaluación del Desempeño del Programa Presupuestario</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu active" href="../denuncia/index.html" role="tab" >Denuncia</a>
+        </li>
+
+        <li class="nav-item nav-item-menu">
+          <a class="nav-link nav-link-menu" href="../contacto/index.html" role="tab" >Contacto</a>
+        </li>
+
+      </ul>
+
+      </div>
     </div>
   </div>
-
     <div class="container">
+      <hr>
         <div class="row">
           <h2>Denuncia</h2>
           <!--LA pantalla se divide en 2 teniendo al formulario con la mayor 
@@ -76,10 +119,11 @@
                       <textarea class="form-control" rows="5" id="message" name="message" required></textarea>
                     </div>
 
+                    
                     <div class="mb-3">
-                      <div class="g-recaptcha" data-sitekey="6Le39HIoAAAAAHfePv45OkD-Vg-NrEsjXb04Xkwe" data-callback="enableSubmitButton"></div>
+                      <div class="g-recaptcha" data-sitekey="6Ld7kjAqAAAAAIPsRMgvJRCqRLDP89SeBOd_D0Yi" data-callback="enableSubmitButton"></div>
                     </div>
-
+                      
                     <input type="submit" class="btn btn-primary" id="button1" value="Enviar denuncia" disabled>
                     
                 </div>
@@ -89,30 +133,32 @@
               <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
               
               <script type="text/javascript">
-                emailjs.init('QXzlJYCAwGzVRzvrh')
+                emailjs.init('p23d1iPo8JMKqo08m')
               </script>
               </div>
             </div>
               
             <div class="col-md-3"><br/>
               <!--Datos generales-->
-              <p> <a title="Teléfono" class="btn btn-light disabled" role="button">
+              <p> <a title="Teléfono" class="btn btn-light" role="button" href="tel:+524499183616">
                 <i class="fa-solid fa-phone"></i>
                 </a>
-                (449) 918 3616 
+                <a id="telefono" href="tel:+524499183616">(449) 918 3616</a>  
               </p>
   
               <p> <a title="E-Mail" id="email" class="btn btn-danger" href="mailto:denuncias@osfags.gob.mx" role="button" >
-                <i class="fa-solid fa-envelope" id="icono-denuncia" ></i>
-              </a>
-                denuncias@osfags.gob.mx
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a id="contacto2" href="mailto:contacto@osfags.gob.mx">contacto@osfags.gob.mx</a>
               </p>
 
             <p> <a title="Mapa" target="_blank" class="btn btn-primary" role="button" 
               href="https://www.google.com/maps/place/Organo+Superior+de+Fiscalizaci%C3%B3n+del+Estado+de+Aguascalientes/@21.912196,-102.311548,15z/data=!4m6!3m5!1s0x8429ee74809cca13:0x20d6cf878d49c6de!8m2!3d21.9121957!4d-102.3115484!16s%2Fg%2F11b6qws0sv?hl=en-US&amp;entry=ttu">
               <i class="fa-solid fa-location-dot"></i>
               </a>
-              Sierra Pintada 102, Bosques del Prado Sur, 20130 Aguascalientes.
+              <a title="Mapa" target="_blank" class="text-direccion" id="direccion" href="https://www.google.com/maps/place/%C3%93rgano+Superior+de+Fiscalizaci%C3%B3n+del+Estado+de+Aguascalientes/@21.9116908,-102.3141755,17.78z/data=!4m14!1m7!3m6!1s0x8429effa149b59b1:0x17374909ee9fc8dd!2s%C3%93rgano+Superior+de+Fiscalizaci%C3%B3n+del+Estado+de+Aguascalientes!8m2!3d21.9121837!4d-102.3116799!16s%2Fg%2F11l1l0h4sk!3m5!1s0x8429effa149b59b1:0x17374909ee9fc8dd!8m2!3d21.9121837!4d-102.3116799!16s%2Fg%2F11l1l0h4sk?entry=ttu">
+                Sierra Pintada 102, Bosques del Prado Sur, 20130 Aguascalientes.
+                </a>
             </p>
             <!-- Button trigger modal -->
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modaldenuncia1" id="modaviso">
@@ -143,6 +189,7 @@
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel" style="text-align: center;">Aviso de Privacidad</h2>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -203,7 +250,7 @@
     
               <div class="col-lg-4 col-md-12">
                 <main class="main-img-footer">
-                  <img src="../assets/img/logoblanco.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes"
+                  <img src="../assets/img/logoOsFAGSBlanco_convert.png" alt="Órgano Superior de Fiscalización del Estado de Aguascalientes"
                   title="Órgano Superior de Fiscalización del Estado de Aguascalientes" id="img-logo4"/>
                 </main>
                 
@@ -222,6 +269,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-
+      
+      
 </body>
 </html>
